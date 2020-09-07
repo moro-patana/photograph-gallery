@@ -8,20 +8,12 @@
 </head>
 <body>
   <header>
+    <input type="checkbox" id="menu_checkbox">
     <div class="heading_container">
       <h1>Photograph</h1>
-      <input type="checkbox" id="menu_checkbox">
       <label for="menu_checkbox" class="icon icon_menu">
         <span class="a11y">Open the menu</span>
       </label>
-      <nav class="menu">
-        <ul class="menu_list">
-          <li class="list_item"><a href="/about">About</a></li>
-          <li class="list_item"><a href="/portfolio">Portfolio</a></li>
-          <li class="list_item"><a href="/blog">Blog</a></li>
-          <li class="list_item"><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
     </div>
   </header>
   <main>
@@ -29,13 +21,16 @@
       <div class="article_container">
         <header class="article_heading">
           <p class="home">Back to porfolio</p>
-          <h2>Beauty is seen through a lens</h2>
+          <h3>Beauty is seen through a lens</h3>
           <p class="description">
             Perspective matters.
             All my photographs try to capture that perspective, however subtle.
           </p>
         </header>
         <div class="select_images">
+          <figure class="modal">
+            <a href="/modal"><img src="./images/modal-image.png" alt="Cave"></a>
+          </figure>
           <figure>
             <a href="/bitmap"><img src="./images/cave.png" alt="Cave"></a>
           </figure>
@@ -50,5 +45,19 @@
       </div>
     </article>
   </main>
+  <nav class="menu">
+    <h2>
+      <label for="menu_checkbox" class="icon icon_menu">
+        <span class="a11y">Open the menu</span>
+      </label>
+    </h2>
+    <ul class="menu_list">
+      <li class="list_item"><a href="/about">About</a></li>
+      <li class="list_item"><a href="/portfolio">Portfolio</a></li>
+      <li class="list_item"><a href="/blog">Blog</a></li>
+      <li class="list_item"><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
 </body>
 </html>
