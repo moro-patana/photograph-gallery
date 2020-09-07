@@ -33,7 +33,6 @@ input[type="checkbox"] {
 .icon_menu {
   background-image: url("../images/menu-icon.png");
   background-repeat: no-repeat;
-  top: 10%;
   right: 10%;
   z-index: 1;
   margin-block-start: 2rem; }
