@@ -1,0 +1,20 @@
+@import "variables";
+@font-face {
+  font-style: $normal-style;
+  font-family: $primary-font-family;
+  font-weight: $normal-size;
+  src: local("DM Serif Display"),
+       local("DM Serif Display"),
+       url($font-path + "DMSerifDisplay-Regular.woff2") format('woff2'),
+       url($font-path + "DMSerifDisplay-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-style: $normal-style;
+  font-family: $secondary-font-family;
+  font-weight: $normal-size;
+  src: local("DM Sans"),
+       local("DM Sans"),
+       url('../fonts/DMSans-Regular.woff2') format('woff2'),
+       url('../fonts/DMSans-Regular.woff') format('woff');
+}
