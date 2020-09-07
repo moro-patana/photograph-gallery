@@ -55,3 +55,23 @@
 .article_beauty table {
   padding: 1rem;
 }
+td:nth-of-type(2), 
+td:nth-of-type(4) {
+  padding-left: 2rem;
+}
+h4 {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5)
+}
+.detail {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
