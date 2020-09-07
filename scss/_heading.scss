@@ -2,3 +2,7 @@
 body > header {
   background-color: $bg-header-color;
 }
+.heading_container {
+  display: flex;
+  flex-direction: row;
+}
