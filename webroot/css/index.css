@@ -105,6 +105,9 @@ h4 {
   line-height: 24px;
   color: #000000; }
 
+.mineral_carving {
+  background: rgba(67, 76, 204, 0.05); }
+
 body > nav {
   padding: 1rem;
   background-color: #f8f8f8;
