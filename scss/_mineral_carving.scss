@@ -3,6 +3,9 @@
 .mineral_carving {
   background: rgba(67, 76, 204, 0.05);
 }
+.mineral_carving .article_container {
+  padding: 1rem;
+}
 .article_heading .info {
   font-family: $secondary-font-family;
   font-style: $normal-style;
