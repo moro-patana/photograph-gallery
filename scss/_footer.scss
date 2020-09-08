@@ -56,9 +56,22 @@ footer .homepage a {
 .sample {
   grid-column: 2 / 4;
   padding-inline-start: 1rem;
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-
+footer span {
+  font-family: $secondary-font-family;
+font-style: $normal-style;
+font-weight: $bold-size;
+font-size: 12px;
+line-height: 24px;
+color: $description-color;
+}
 .editor {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   margin-block-start: 3rem;
