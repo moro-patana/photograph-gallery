@@ -3,3 +3,30 @@
 .mineral_carving {
   background: rgba(67, 76, 204, 0.05);
 }
+.article_heading .info {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: $description-size;
+  line-height: 32px;
+  color: $description-color;
+}
+.mineral_carving .description {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+
+}
+.social_media ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.social_media li {
+  padding: 0.5rem;
+}

@@ -22,6 +22,17 @@ h3 {
   line-height: 64px;
   color: #000000; }
 
+h4 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000; }
+
+ul > li {
+  list-style: none; }
+
 body > header {
   background-color: #434CCC; }
 
@@ -89,7 +100,7 @@ td:nth-of-type(2),
 td:nth-of-type(4) {
   padding-left: 2rem; }
 
-h4 {
+h5 {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
@@ -107,6 +118,32 @@ h4 {
 
 .mineral_carving {
   background: rgba(67, 76, 204, 0.05); }
+
+.article_heading .info {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000; }
+
+.mineral_carving .description {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1rem; }
+
+.social_media ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem; }
+
+.social_media li {
+  padding: 0.5rem; }
 
 body > nav {
   padding: 1rem;
