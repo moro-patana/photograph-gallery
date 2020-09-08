@@ -1,1 +1,59 @@
 @import "variables";
+
+footer > .about {
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.title {
+  font-family: $primary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 24px;
+  line-height: 32px;
+  color: $description-color;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer .social_media ul {
+  padding-inline-start: 0;
+}
+footer .social_media li:nth-of-type(1) {
+  padding-inline-start: 0;
+}
+footer .homepage ul {
+  padding: 0;
+}
+footer .homepage a {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.active a {
+  font-weight: $bold-size;
+  color: rgba(0, 0, 0, 1);
+  
+}
+.examples {
+  padding-top: 5rem;
+}
+.editor {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  margin-block-start: 3rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.security {
+  color: rgba(0, 0, 0, 0.5);
+}
+.settle_date {
+  text-transform: uppercase;
+}

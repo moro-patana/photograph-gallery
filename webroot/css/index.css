@@ -33,6 +33,9 @@ h4 {
 ul > li {
   list-style: none; }
 
+a {
+  text-decoration: none; }
+
 body > header {
   background-color: #434CCC; }
 
@@ -292,3 +295,59 @@ body > nav > ul a {
     padding: 1.25rem;
     background-image: none;
     line-height: 1.25rem; } }
+
+footer > .about {
+  padding: 1rem;
+  margin-top: 3rem; }
+
+.title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  text-transform: uppercase; }
+
+.subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5); }
+
+footer .social_media ul {
+  padding-inline-start: 0; }
+
+footer .social_media li:nth-of-type(1) {
+  padding-inline-start: 0; }
+
+footer .homepage ul {
+  padding: 0; }
+
+footer .homepage a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5); }
+
+.active a {
+  font-weight: 700;
+  color: black; }
+
+.examples {
+  padding-top: 5rem; }
+
+.editor {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  margin-block-start: 3rem;
+  color: rgba(0, 0, 0, 0.5); }
+
+.security {
+  color: rgba(0, 0, 0, 0.5); }
+
+.settle_date {
+  text-transform: uppercase; }
