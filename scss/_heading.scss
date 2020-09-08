@@ -9,10 +9,21 @@ body > header {
 }
 h1 {
   font-family: $primary-font-family;
-font-style: $normal-style;
-font-weight: $normal-size;
-font-size: 24px;
-line-height: 32px;
-color: #FFFFFF;
-text-transform: uppercase;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+@media(min-width: 1114px) {
+  h1 {
+    font-family: $primary-font-family;
+    font-style: $normal-style;
+    font-weight: $normal-size;
+    font-size: 40px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
 }
