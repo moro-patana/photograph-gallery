@@ -1,0 +1,64 @@
+@import "variables";
+
+.up_to_date {
+  padding: 1rem;
+  background: #ffdd78;
+}
+.up_to_date .update_heading {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.up_to_date .latest_version {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: $description-color;
+}
+.form_input {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $bold-size;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $description-color;
+  padding-block-end: 1rem;
+}
+.email_address {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40px;
+  margin-block-end: 1rem;
+  padding-inline-start: 1rem;
+
+}
+.subscribe {
+  width: 170px;
+  height: 48px;
+  background: #434CCC;
+  border-radius: 5px;
+  border: none;
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $bold-size;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
