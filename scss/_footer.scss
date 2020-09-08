@@ -46,6 +46,19 @@ footer .homepage a {
 .examples {
   padding-top: 5rem;
 }
+.sample_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sample_list img {
+  grid-column: 1 / 2;
+}
+.sample {
+  grid-column: 2 / 4;
+  padding-inline-start: 1rem;
+}
+
+
 .editor {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   margin-block-start: 3rem;
