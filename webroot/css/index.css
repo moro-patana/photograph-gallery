@@ -71,8 +71,11 @@ h1 {
     color: #FFFFFF;
     text-transform: uppercase; } }
 
-.article_beauty {
+.masthead {
   background: rgba(67, 76, 204, 0.05); }
+
+.masthead_container {
+  padding: 1rem; }
 
 .home {
   font-family: "DM Sans";
@@ -86,16 +89,24 @@ h1 {
   content: "←";
   padding-inline-end: 0.5rem; }
 
-.article_heading {
-  padding: 1rem; }
-
 .description {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: #000000;
+  font-size: 18px;
   line-height: 32px;
   color: #000000; }
+
+@media (min-width: 1114px) {
+  .masthead {
+    width: 585px;
+    height: 366px; }
+  .masthead h3 {
+    width: 457px; } }
+
+.article_beauty {
+  background: rgba(67, 76, 204, 0.05);
+  padding: 1rem; }
 
 .modal {
   display: grid;
@@ -146,13 +157,6 @@ h5 {
   font-size: 16px;
   line-height: 24px;
   color: #000000; }
-
-@media (min-width: 1114px) {
-  .article_beauty .article_heading {
-    width: 585px;
-    height: 366px; }
-  .article_beauty h3 {
-    width: 457px; } }
 
 .mineral_carving {
   background: rgba(67, 76, 204, 0.05); }

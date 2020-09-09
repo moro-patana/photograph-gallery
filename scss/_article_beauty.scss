@@ -1,29 +1,7 @@
 @import "variables";
 .article_beauty {
   background: rgba(67, 76, 204, 0.05);
-}
-.home {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
-  font-weight: $normal-size;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(0, 0, 0, 0.5);
-}
-.home::before {
-  content: "←";
-  padding-inline-end: 0.5rem;
-}
-.article_heading {
   padding: 1rem;
-}
-.description {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
-  font-weight: $normal-size;
-  font-size: $description-color;
-  line-height: 32px;
-  color: $description-color;
 }
 .modal {
     display: grid;
@@ -74,13 +52,4 @@ h5 {
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-}
-@media(min-width:1114px) {
-  .article_beauty .article_heading {
-    width: 585px;
-    height: 366px;
-  }
-  .article_beauty h3 {
-    width: 457px;
-  }
 }
