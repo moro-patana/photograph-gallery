@@ -24,6 +24,16 @@ a {
   text-decoration: none;
 }
 @media(min-width:1114px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "masthead masthead"
+        "article_beauty article_beauty"
+        "location mineral_carving"
+        "up_to_date up_to_date";
+}
+  
   .container {
     max-width: 1114px;
     margin: 0 auto;
@@ -31,5 +41,6 @@ a {
   h4 {
     font-size: 52px;
     line-height: 64px;
+    margin: 0;
   }
 }
