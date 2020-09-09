@@ -102,5 +102,15 @@ body > [type="checkbox"],
   .icon_menu {
     display: none;
   }
+  .menu li a {
+    font-family: $secondary-font-family;
+    font-style: $normal-style;
+    font-weight: $bold-size;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
 
 }

@@ -324,7 +324,15 @@ body > [type="checkbox"],
     flex-direction: row;
     margin-inline-end: 6rem; }
   .icon_menu {
-    display: none; } }
+    display: none; }
+  .menu li a {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF; } }
 
 footer > .about {
   padding: 1rem;
