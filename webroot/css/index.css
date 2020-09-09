@@ -462,3 +462,9 @@ footer .homepage a {
 
 .print_date {
   text-transform: uppercase; }
+
+@media (min-width: 1114px) {
+  .footer_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px; } }
