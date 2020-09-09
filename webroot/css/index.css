@@ -467,4 +467,22 @@ footer .homepage a {
   .footer_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px; } }
+    column-gap: 20px;
+    padding-block-start: 50px;
+    padding-block-end: 50px; }
+  .subtitle {
+    width: 270px;
+    height: 79px; }
+  .homepage {
+    padding-block-start: 1rem; }
+  .homepage .active {
+    padding-block-end: 2rem; }
+  .homepage .active a {
+    font-weight: 700;
+    color: #000000; }
+  .homepage_list {
+    padding-block-end: 0.5rem; }
+  .social_media ul {
+    padding: 0; }
+  .samples {
+    padding-block-start: 2.5rem; } }
