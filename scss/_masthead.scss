@@ -28,6 +28,9 @@
   color: $description-color;
 }
 @media(min-width:1114px) {
+  .masthead {
+    grid-area: masthead;
+  }
   .mastheading {
     width: 585px;
     height: 366px;
