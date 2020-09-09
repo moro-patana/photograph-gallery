@@ -68,6 +68,9 @@
 }
 
 @media(min-width: 1114px) {
+  .up_to_date {
+    grid-area: up_to_date;
+  }
   .up_to_date .article_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
