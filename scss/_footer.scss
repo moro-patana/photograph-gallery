@@ -1,8 +1,6 @@
 @import "variables";
-
-footer > .about {
+.footer_container {
   padding: 1rem;
-  margin-top: 3rem;
 }
 .title {
   font-family: $primary-font-family;
@@ -38,24 +36,11 @@ footer .homepage a {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-.active a {
-  font-weight: $bold-size;
-  color: rgba(0, 0, 0, 1);
-  
-}
-.examples {
-  padding-top: 5rem;
-}
-.sample_list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.sample_list img {
-  grid-column: 1 / 2;
+.example {
+  display: flex;
+  flex-direction: column;
 }
 .sample {
-  grid-column: 2 / 4;
-  padding-inline-start: 1rem;
   font-family: $secondary-font-family;
   font-style: $normal-style;
   font-weight: $normal-size;
@@ -63,23 +48,32 @@ footer .homepage a {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-
+.set_date {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $bold-size;
+  font-size: 12px;
+  line-height: 24px;
+  color: $description-color;
+}
+.page_info {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
 .print_date {
   font-family: $secondary-font-family;
-font-style: $normal-style;
-font-weight: $bold-size;
-font-size: 12px;
-line-height: 24px;
-color: $description-color;
-}
-.editor {
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  margin-block-start: 3rem;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 14px;
+  line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-.security {
-  color: rgba(0, 0, 0, 0.5);
-}
-.settle_date {
+.print_date {
   text-transform: uppercase;
 }

@@ -368,9 +368,8 @@ body > [type="checkbox"],
     text-transform: capitalize;
     color: #FFFFFF; } }
 
-footer > .about {
-  padding: 1rem;
-  margin-top: 3rem; }
+.footer_container {
+  padding: 1rem; }
 
 .title {
   font-family: "DM Serif Display";
@@ -406,23 +405,11 @@ footer .homepage a {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5); }
 
-.active a {
-  font-weight: 700;
-  color: black; }
-
-.examples {
-  padding-top: 5rem; }
-
-.sample_list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); }
-
-.sample_list img {
-  grid-column: 1 / 2; }
+.example {
+  display: flex;
+  flex-direction: column; }
 
 .sample {
-  grid-column: 2 / 4;
-  padding-inline-start: 1rem;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
@@ -430,7 +417,7 @@ footer .homepage a {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5); }
 
-.print_date {
+.set_date {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -438,13 +425,23 @@ footer .homepage a {
   line-height: 24px;
   color: #000000; }
 
-.editor {
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  margin-block-start: 3rem;
+.page_info {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem; }
+
+.print_date {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   color: rgba(0, 0, 0, 0.5); }
 
-.security {
-  color: rgba(0, 0, 0, 0.5); }
-
-.settle_date {
+.print_date {
   text-transform: uppercase; }
