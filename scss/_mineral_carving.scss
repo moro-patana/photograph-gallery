@@ -21,7 +21,6 @@
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
-  padding: 1rem;
 
 }
 .social_media ul {
@@ -32,4 +31,14 @@
 }
 .social_media li {
   padding: 0.5rem;
+}
+@media(min-width: 1114px) {
+  .mineral_carving {
+    grid-area: mineral_carving;
+    padding-inline-end: 6rem;
+    padding-top: 2rem;
+  }
+  .carving_description {
+    width: 570px;
+  }
 }
