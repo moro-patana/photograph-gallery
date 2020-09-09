@@ -22,6 +22,10 @@
   display: flex;
   flex-direction: column;
 }
+.address {
+  display: flex;
+  flex-direction: column;
+}
 .email {
   font-family: $secondary-font-family;
   font-style: $normal-style;
@@ -43,7 +47,7 @@
   border: 1px solid #DADADA;
   box-sizing: border-box;
   border-radius: 5px;
-  height: 40px;
+  height: 48px;
   margin-block-end: 1rem;
   padding-inline-start: 1rem;
 
@@ -61,4 +65,32 @@
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media(min-width: 1114px) {
+  .up_to_date .article_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-block-start: 104px;
+    padding-block-end: 104px;
+  }
+  .up_to_date h4 {
+    width: 382px;
+    height: 128px;
+  }
+  .form_group {
+    margin-block-start: 132px;
+  }
+  .form_input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 54px;
+  }
+  .email_address {
+    width: 346px;
+  }
+  .subscribe {
+    margin-block-start: 32px;
+  }
+
 }
