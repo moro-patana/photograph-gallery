@@ -5,3 +5,22 @@ background: rgba(67, 76, 204, 0.05);
 .table_container {
   padding: 1rem;
 }
+h5 {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5)
+}
+.detail {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+td {
+  padding-right: 3rem;
+}

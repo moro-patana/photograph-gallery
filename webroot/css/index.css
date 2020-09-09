@@ -135,12 +135,11 @@ h1 {
 .modal_list:nth-of-type(4) {
   grid-column: 3 / 4; }
 
-.article_beauty table {
-  padding: 1rem; }
+.location {
+  background: rgba(67, 76, 204, 0.05); }
 
-td:nth-of-type(2),
-td:nth-of-type(4) {
-  padding-left: 2rem; }
+.table_container {
+  padding: 1rem; }
 
 h5 {
   font-family: "DM Sans";
@@ -158,11 +157,8 @@ h5 {
   line-height: 24px;
   color: #000000; }
 
-.location {
-  background: rgba(67, 76, 204, 0.05); }
-
-.table_container {
-  padding: 1rem; }
+td {
+  padding-right: 3rem; }
 
 .mineral_carving {
   background: rgba(67, 76, 204, 0.05); }
