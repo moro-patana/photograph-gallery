@@ -24,3 +24,9 @@ h5 {
 td {
   padding-right: 3rem;
 }
+@media(min-width: 1114px) {
+  .location {
+    grid-area: location;
+    padding-inline-start: 6rem;
+  }
+}
