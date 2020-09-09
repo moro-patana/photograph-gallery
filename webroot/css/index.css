@@ -113,7 +113,8 @@ h1 {
 
 .article_beauty {
   background: rgba(67, 76, 204, 0.05);
-  padding: 1rem; }
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .modal {
   display: grid;
