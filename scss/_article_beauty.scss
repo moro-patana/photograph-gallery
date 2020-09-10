@@ -10,10 +10,18 @@
 .selected_image img {
   width: 100%;
 }
+.modal {
+  overflow-x: scroll;
+}
+.modal::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
 .modal_list {
   display: flex;
   flex-direction: row;
   padding: 0;
+  margin: 0;
 }
 .modal_list_item {
   padding-right: 1rem;
