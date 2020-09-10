@@ -7,26 +7,36 @@
 .article_beauty .article_container {
   padding: 1rem;
 }
-.selected_image img {
-  width: 100%;
-}
 .modal {
-  overflow-x: scroll;
+  padding-block-end: 0.5rem;
 }
-.modal::-webkit-scrollbar {
-  width: 0px;
+.modal_inner button {
+  position: absolute;
+  height: 225px;
   background-color: transparent;
+  border: none;
 }
-.modal_list {
+.next {
+  right: 16px;
+}
+.selected_image {
+  width: 100%;
+  border-radius: 5px;
+}
+.gallery {
   display: flex;
   flex-direction: row;
   padding: 0;
   margin: 0;
+  overflow-x: scroll;
 }
-.modal_list_item {
+
+.gallery::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+.gallery img {
   padding-right: 1rem;
-}
-.modal_list_item img {
   width: 125px;
   height: 80px;
   border-radius: 5px;
@@ -36,10 +46,7 @@
     grid-area: article_beauty;
     padding: 0;
   }
-  .modal {
-    padding: 0;
-  }
-  .selected_images {
+    .select_image {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -50,4 +57,18 @@
     grid-column: 1 / 9;
     grid-row: 1 / 9;
   }
+  .gallery {
+    overflow-x: hidden;
+  }
+  .modal_inner button {
+    position: absolute;
+    height: 680px;
+    background-color: transparent;
+    border: none;
+  }
+  .next {
+    right: 120px;
+  }
+  
+  
 }
