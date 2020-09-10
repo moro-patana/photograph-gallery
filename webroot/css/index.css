@@ -218,7 +218,10 @@ td {
     padding-inline-end: 6rem;
     padding-top: 2rem; }
   .carving_description {
-    width: 570px; } }
+    width: 570px; }
+  .social_media {
+    padding-block-start: 1rem;
+    padding-block-end: 1rem; } }
 
 .up_to_date {
   padding: 1rem;
