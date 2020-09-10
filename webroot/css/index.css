@@ -405,7 +405,8 @@ body > [type="checkbox"],
     font-size: 12px;
     line-height: 24px;
     text-transform: capitalize;
-    color: #FFFFFF; } }
+    color: #FFFFFF;
+    opacity: 1; } }
 
 .footer_container {
   padding: 1rem; }
