@@ -25,9 +25,7 @@ this.handleClickOutside = this.handleClickOutside.bind(this);
 
 // loop over each image
 this.images.forEach(image => {
-    // attach an event listener for each image
     image.addEventListener(`keyup`, e => {
-        // when that is keyup'd, check 
         if (e.key === `Enter`) {
             this.showImage(e.currentTarget);
         }
