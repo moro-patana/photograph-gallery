@@ -6,9 +6,9 @@
   font-family: $primary-font-family;
   font-style: $normal-style;
   font-weight: $normal-size;
-  font-size: 24px;
+  font-size: $footer-title-size;
   line-height: 32px;
-  color: $description-color;
+  color: $dark-color;
   text-transform: uppercase;
 }
 .subtitle {
@@ -17,13 +17,13 @@
   font-weight: $normal-size;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.5);
+  color: $pretty-dark-color;
 }
 footer .social_media ul {
-  padding-inline-start: 0;
+  padding-left: 0;
 }
 footer .social_media li:nth-of-type(1) {
-  padding-inline-start: 0;
+  padding-left: 0;
 }
 footer .homepage ul {
   padding: 0;
@@ -32,24 +32,25 @@ footer .homepage a {
   font-family: $secondary-font-family;
   font-style: $normal-style;
   font-weight: $normal-size;
-  font-size: 16px;
+  font-size: $anchors-size;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.5);
+  color: $anchor-color;
 }
 .samples {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   row-gap: 25px;
-  padding-block-start: 50px;
-  padding-block-end: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .sample_list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 1rem;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
 }
 .sample_list img {
-  grid-column: 1 / 2;
+  padding-right: 2rem;
 }
 .example {
   display: flex;
@@ -58,47 +59,46 @@ footer .homepage a {
   margin: 0;
 }
 
-.sample {
+.sample,
+.set_date,
+.page_info,
+.print_date {
   font-family: $secondary-font-family;
   font-style: $normal-style;
+}
+.sample {
   font-weight: $normal-size;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.5);
+  color: $pretty-dark-color;
 }
 .set_date {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
   font-weight: $bold-size;
   font-size: 12px;
   line-height: 24px;
-  color: $description-color;
+  color: $dark-color;
 }
 .page_info {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
   font-weight: $normal-size;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.5);
+  color: $pretty-dark-color;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
 .homepage .active a {
   font-weight: $bold-size;
-  color: $description-color;
+  color: $dark-color;
 }
   .homepage .active {
-    padding-block-end: 2rem;
+    padding-bottom: 2rem;
 }
 
 .print_date {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
   font-weight: $normal-size;
   font-size: 14px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.5);
+  color: $pretty-dark-color;
 }
 .print_date {
   text-transform: uppercase;
@@ -106,9 +106,10 @@ footer .homepage a {
 
 @media(min-width: 1114px) {
   .footer_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-block-start: 50px;
     padding-block-end: 50px;
   }
@@ -126,7 +127,7 @@ footer .homepage a {
     padding: 0;
   }
   .samples {
-    padding-block-start: 2.5rem;
+    padding-top: 2.5rem;
   }
   .page_info {
     display: flex;
