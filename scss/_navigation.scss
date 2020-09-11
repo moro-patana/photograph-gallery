@@ -1,4 +1,4 @@
-
+@import "variables";
 .menu {
   padding: 1rem;
   border-radius: 10px;
@@ -80,7 +80,7 @@ body > [type="checkbox"],
   right: 1rem;
 }
 
-@media(min-width: 1114px) {
+@media(min-width: $content-width) {
   .menu {
     padding: 0;
     background-color: transparent;
@@ -97,7 +97,7 @@ body > [type="checkbox"],
 /* Switch from column to row flex */
   .menu ul {
     flex-direction: row;
-    margin-inline-end: 6rem;
+    margin-right: 6rem;
   }
   .icon_menu {
     display: none;
@@ -106,10 +106,11 @@ body > [type="checkbox"],
     font-family: $secondary-font-family;
     font-style: $normal-style;
     font-weight: $bold-size;
-    font-size: 12px;
-    line-height: 24px;
+    font-size: $anchors-size;
+    line-height: $anchors-height;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: white;
+    color: $light-color;
     opacity: 1;
   }
 
