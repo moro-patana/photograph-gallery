@@ -1,32 +1,33 @@
 @import "variables";
 .location {
-background: rgba(67, 76, 204, 0.05);
+background: $second-bg;
 }
 .table_container {
-  padding: 1rem;
+  padding: $container-padding;
 }
-h5 {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
-  font-weight: $normal-size;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(0, 0, 0, 0.5)
-}
+h5,
 .detail {
   font-family: $secondary-font-family;
   font-style: $normal-style;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
+}
+h5 {
+  font-weight: $normal-size;
+  font-size: $h5-size;
+  line-height: $h5-height;
+  color: $pretty-dark-color;
+}
+.detail {
+  font-weight: $bold-size;
+  font-size: $table-date-size;
+  line-height: $table-date-height;
+  color: $dark-color;
 }
 td {
   padding-right: 3rem;
 }
-@media(min-width: 1114px) {
+@media(min-width: $content-width) {
   .location {
-    grid-area: location;
-    padding-inline-start: 6rem;
+    position: absolute;
+    padding-left: 6rem;
   }
 }
