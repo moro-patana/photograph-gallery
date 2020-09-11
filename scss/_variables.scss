@@ -1,13 +1,59 @@
-$primary-color: #F4F6F9;
-$bg-header-color: #434CCC;
+// Background-color
+$primary-bg: #434CCC;
+$second-bg: rgba(67, 76, 204, 0.05);
+$third-bg:#FFDD78;
+$second-bg: #F4F6F9;
+$button-bg: #434CCC;
+$input-bg: #FFFFFF;
+
+// Text color
+$light-color: #ffff;
+$dark-color: #000000;
+$pretty-dark-color: rgba(0, 0, 0, 0.5);
+$description-color: rgba(0, 0, 0, 0.5);
+$anchor-color: rgba(0, 0, 0, 0.5);
+
+// Fonts
 $primary-font-family: "DM Serif Display";
 $secondary-font-family: "DM Sans";
-$normal-size: 400;
-$bold-size: 700;
-$second-heading: 52px;
-$description-color: #000000;
-$description-size: 18px;
-$normal-style: normal;
 $font-path: "../fonts/";
 $font-fallbacks: Arial, Helvetica, sans-serif;
+$normal-size: 400;
+$bold-size: 700;
+$body-header: 24px;
+$body-header-height: 32px;
+$back-home-size: 16px;
+$back-home-height: 24px;
+$masthead-size: 52px;
+$masthead-height: 64px;
+$h4-size: 40px;
+$h4-height: 48px;
+$h5-size: 16px;
+$h5-height: 24px;
+$table-date-size: 16px;
+$table-date-height: 24px;
+$description-size: 18px;
+$description-height: 32px;
+$info-size: 18px;
+$info-height: 32px;
+$container-padding: 1rem;
+$input-size: 16px;
+$button-size: 16px;
+$anchors-size: 16px;
+$anchors-height: 24px;
+$set-date: 12px;
+$version-size: 16px;
+$version-height: 24px;
+$medium-height: 24px;
+$footer-title-size: 24px;
+$normal-style: normal;
 $margin: auto;
+
+// @media
+$content-width: 1114px;
+$desktop-h1-size: 40px;
+$desktop-h1-height: 48px;
+$desktop-masthead-size: 72px;
+$desktop-masthead-height: 80px;
+$desktop-h4-size: 52px;
+$desktop-h4-height: 64px;
