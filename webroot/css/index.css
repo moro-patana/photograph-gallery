@@ -131,7 +131,7 @@ h1 {
 
 .selected_image {
   width: 100%;
-  border-radius: 5px; }
+  border-radius: 10px; }
 
 .gallery {
   display: flex;
