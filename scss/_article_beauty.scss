@@ -1,14 +1,14 @@
 @import "variables";
 .article_beauty {
-  background: rgba(67, 76, 204, 0.05);
+  background-color: $second-bg;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .article_beauty .article_container {
-  padding: 1rem;
+  padding: $container-padding;
 }
 .modal {
-  padding-block-end: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .modal_inner button {
   position: absolute;
@@ -32,8 +32,12 @@
 }
 
 .gallery::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
   background-color: transparent;
+}
+.gallery {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none; 
 }
 .gallery img {
   padding-right: 1rem;
@@ -41,9 +45,9 @@
   height: 80px;
   border-radius: 5px;
 }
-@media(min-width:1114px) {
+@media(min-width: $content-width) {
   .article_beauty {
-    grid-area: article_beauty;
+    // grid-area: article_beauty;
     padding: 0;
   }
     .select_image {
