@@ -1,27 +1,10 @@
 @import "variables";
 
 .mineral_carving {
-  background: rgba(67, 76, 204, 0.05);
+  background: $second-bg;
 }
 .mineral_carving .article_container {
-  padding: 1rem;
-}
-.article_heading .info {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
-  font-weight: $normal-size;
-  font-size: $description-size;
-  line-height: 32px;
-  color: $description-color;
-}
-.mineral_carving .description {
-  font-family: $secondary-font-family;
-  font-style: $normal-style;
-  font-weight: $normal-size;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(0, 0, 0, 0.5);
-
+  padding: $container-padding;
 }
 .social_media ul {
   display: flex;
@@ -32,17 +15,17 @@
 .social_media li {
   padding-right: 1rem;
 }
-@media(min-width: 1114px) {
+@media(min-width: $content-width) {
   .mineral_carving {
-    grid-area: mineral_carving;
-    padding-inline-end: 6rem;
+    padding-left: 628px;
+    padding-right: 6rem;
     padding-top: 2rem;
   }
   .carving_description {
     width: 570px;
   }
   .social_media {
-    padding-block-start: 1rem;
-    padding-block-end: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
