@@ -1,6 +1,6 @@
 @import "variables";
 body > header {
-  background-color: $bg-header-color;
+  background-color: $primary-bg;
 }
 .heading_container {
   display: flex;
@@ -11,19 +11,15 @@ h1 {
   font-family: $primary-font-family;
   font-style: $normal-style;
   font-weight: $normal-size;
-  font-size: 24px;
-  line-height: 32px;
-  color: #FFFFFF;
+  font-size: $body-header;
+  line-height: $body-header-height;
+  color: $light-color;
   text-transform: uppercase;
 }
-@media(min-width: 1114px) {
+@media(min-width: $content-width) {
   h1 {
-    font-family: $primary-font-family;
-    font-style: $normal-style;
-    font-weight: $normal-size;
-    font-size: 40px;
-    line-height: 32px;
-    color: #FFFFFF;
+    font-size: $desktop-h1-size;
+    line-height: $desktop-h1-height;
     text-transform: uppercase;
   }
 
