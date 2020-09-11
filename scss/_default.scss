@@ -1,46 +1,54 @@
 body {
     margin: 0;
 }
-h3 {
-  font-family: $primary-font-family;
-  font-style: $normal-style;
-  font-weight: $normal-size;
-  font-size: $second-heading;
-  line-height: 64px;
-  color: #000000;
-}
+h3,
 h4 {
   font-family: $primary-font-family;
   font-style: $normal-style;
   font-weight: $normal-size;
-  font-size: 40px;
-  line-height: 48px;
-  color: #000000;
 }
+h3 {
+  font-size: $masthead-size;
+  line-height: $masthead-height;
+  color: $dark-color;
+}
+h4 {
+  font-size: $h4-size;
+  line-height: $h4-height;
+  color: $dark-color;
+}
+.info {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: $info-size;
+  line-height: $info-height;
+  color: $dark-color;
+}
+.description {
+  font-family: $secondary-font-family;
+  font-style: $normal-style;
+  font-weight: $normal-size;
+  font-size: $description-size;
+  line-height: $description-height;
+  color: $description-color;
+
+}
+
 ul > li {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
-@media(min-width:1114px) {
-  main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-        "masthead masthead"
-        "article_beauty article_beauty"
-        "location mineral_carving"
-        "up_to_date up_to_date";
-}
-  
+@media(min-width: $content-width) {
   .container {
-    max-width: 1114px;
-    margin: 0 auto;
+    max-width: $content-width;
+    margin: $margin;
   }
   h4 {
-    font-size: 52px;
-    line-height: 64px;
+    font-size: $desktop-h4-size;
+    line-height: $desktop-h4-height;
     margin: 0;
   }
 }
