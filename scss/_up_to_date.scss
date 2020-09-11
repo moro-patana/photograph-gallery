@@ -2,7 +2,7 @@
 
 .up_to_date {
   padding: 1rem;
-  background: #ffdd78;
+  background: $third-bg;
 }
 .up_to_date .update_heading {
   display: flex;
@@ -12,8 +12,8 @@
   font-family: $secondary-font-family;
   font-style: $normal-style;
   font-weight: $normal-size;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: $version-size;
+  line-height: $version-height;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: $description-color;
@@ -33,14 +33,14 @@
   font-size: 12px;
   line-height: 16px;
   text-transform: uppercase;
-  color: $description-color;
-  padding-block-end: 1rem;
+  color: $dark-color;
+  padding-bottom: 1rem;
 }
 .email_address {
   font-family: $secondary-font-family;
   font-style: $normal-style;
   font-weight: $normal-size;
-  font-size: 16px;
+  font-size: $input-size;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
   background: #FFFFFF;
@@ -48,8 +48,8 @@
   box-sizing: border-box;
   border-radius: 5px;
   height: 48px;
-  margin-block-end: 1rem;
-  padding-inline-start: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
 
 }
 .subscribe {
@@ -67,33 +67,37 @@
   color: #FFFFFF;
 }
 
-@media(min-width: 1114px) {
+@media(min-width: $content-width) {
   .up_to_date {
     grid-area: up_to_date;
   }
   .up_to_date .article_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-block-start: 20px;
-    padding-block-end: 104px;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 104px;
   }
   .up_to_date h4 {
     width: 382px;
     height: 128px;
   }
   .form_group {
-    margin-block-start: 132px;
+    margin-top: 132px;
   }
   .form_input {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 54px;
-  }
+    display: flex;
+    flex-direction: row;
+    }
+    .address {
+      padding-right: 2rem;
+    }
   .email_address {
     width: 346px;
   }
   .subscribe {
-    margin-block-start: 32px;
+    margin-top: 32px;
   }
 
 }
