@@ -1,12 +1,7 @@
 # Front-end final mockup-to-website project
 
-Hey everyone! 
-
-This will be our final project in the front-end course, so let's make it a good one :)
-
-Please fork-and-clone this project as your own repo.
-
-First things first, let's get you set up. You will need the following…
+This project is about practicing how to use node-sass. There is a part that we need to use javascript to switch the images.
+Before we start, let's install dependencies.
 
 ## Dependencies
 
@@ -24,10 +19,10 @@ We'll be using `node-sass` for our Sass compilation. Let's install that by doing
 
 ### Design
 
-You can find the design:
+You can find the demo:
 
-- online at [figma.com/Laaqiq-1-Portfolio-detail-Responsive](https://www.figma.com/file/VgF87mULloYb7HZ1EMCRzU/Laaqiq-1-Portfolio-detail-Responsive?node-id=0%3A1) (Recommended)
-- by importing the `.fig` file in [the `source_materials` folder](./source_materials/) into your figma app.
+- Demo: https://front-end-final-manjaka.netlify.app
+
 
 ### Source files
 
