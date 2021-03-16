@@ -4,10 +4,6 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.article_beauty img:focus {
-  border: none;
-  outline: none;
-}
 .article_beauty .article_container {
   padding: $container-padding;
 }
@@ -47,7 +43,10 @@
   padding-right: 1rem;
   width: 125px;
   height: 80px;
-  border-radius: 5px;
+}
+.gallery img:focus {
+  border: none;
+  outline: none;
 }
 @media(min-width: $content-width) {
   .article_beauty {

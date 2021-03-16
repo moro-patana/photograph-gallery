@@ -130,10 +130,6 @@ h1 {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
-.article_beauty img:focus {
-  border: none;
-  outline: none; }
-
 .article_beauty .article_container {
   padding: 1rem; }
 
@@ -171,8 +167,11 @@ h1 {
 .gallery img {
   padding-right: 1rem;
   width: 125px;
-  height: 80px;
-  border-radius: 5px; }
+  height: 80px; }
+
+.gallery img:focus {
+  border: none;
+  outline: none; }
 
 @media (min-width: 1114px) {
   .article_beauty {
@@ -332,6 +331,9 @@ td {
   line-height: 24px;
   text-align: center;
   color: #FFFFFF; }
+
+.subscribe > a {
+  color: white; }
 
 @media (min-width: 1114px) {
   .up_to_date {
