@@ -1,4 +1,7 @@
 @import "variables";
+footer {
+  padding-top: 75.91px;
+}
 .footer_container {
   padding: 1rem;
 }
@@ -18,6 +21,7 @@
   font-size: 16px;
   line-height: 24px;
   color: $pretty-dark-color;
+  padding-top: 22.97px;
 }
 footer .social_media ul {
   padding-left: 0;

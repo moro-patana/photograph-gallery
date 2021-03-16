@@ -6,11 +6,19 @@
 .mineral_carving .article_container {
   padding: $container-padding;
 }
+.description {
+  padding-top: 65px;
+}
+.info {
+  padding-top: 31px;
+}
 .social_media ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 1rem;
+  padding-left: 0;
+  padding-top: 33px;
+  padding-bottom: 105px;
 }
 .social_media li {
   padding-right: 1rem;

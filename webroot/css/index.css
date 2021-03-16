@@ -32,7 +32,8 @@ h3 {
 h4 {
   font-size: 40px;
   line-height: 48px;
-  color: #000000; }
+  color: #000000;
+  padding-bottom: 44px; }
 
 .info {
   font-family: "DM Sans";
@@ -130,9 +131,6 @@ h1 {
 .article_beauty .article_container {
   padding: 1rem; }
 
-.modal {
-  padding-bottom: 0.5rem; }
-
 .modal_inner button {
   position: absolute;
   height: 225px;
@@ -145,6 +143,9 @@ h1 {
 .selected_image {
   width: 100%;
   border-radius: 10px; }
+
+.galleries {
+  padding: 0; }
 
 .gallery {
   display: flex;
@@ -226,11 +227,19 @@ td {
 .mineral_carving .article_container {
   padding: 1rem; }
 
+.description {
+  padding-top: 65px; }
+
+.info {
+  padding-top: 31px; }
+
 .social_media ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 1rem; }
+  padding-left: 0;
+  padding-top: 33px;
+  padding-bottom: 105px; }
 
 .social_media li {
   padding-right: 1rem; }
@@ -262,7 +271,9 @@ td {
   line-height: 24px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5); }
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 63px;
+  padding-bottom: 19px; }
 
 .form_input {
   display: flex;
@@ -297,6 +308,11 @@ td {
   margin-bottom: 1rem;
   padding-left: 1rem; }
 
+.btn_container {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 44px; }
+
 .subscribe {
   width: 170px;
   height: 48px;
@@ -320,12 +336,13 @@ td {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 20px;
-    padding-bottom: 104px; }
+    padding-bottom: 104px;
+    align-items: baseline; }
   .up_to_date h4 {
     width: 382px;
     height: 128px; }
   .form_group {
-    margin-top: 132px; }
+    padding-bottom: 44px; }
   .form_input {
     display: flex;
     flex-direction: row; }
@@ -435,6 +452,9 @@ body > [type="checkbox"],
     color: #ffff;
     opacity: 1; } }
 
+footer {
+  padding-top: 75.91px; }
+
 .footer_container {
   padding: 1rem; }
 
@@ -453,7 +473,8 @@ body > [type="checkbox"],
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.5); }
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 22.97px; }
 
 footer .social_media ul {
   padding-left: 0; }

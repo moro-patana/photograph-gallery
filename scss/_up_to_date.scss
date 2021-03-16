@@ -17,6 +17,8 @@
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: $description-color;
+  padding-top: 63px;
+  padding-bottom: 19px;
 }
 .form_input {
   display: flex;
@@ -52,6 +54,11 @@
   padding-left: 1rem;
 
 }
+.btn_container {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 44px;
+}
 .subscribe {
   width: 170px;
   height: 48px;
@@ -78,13 +85,14 @@
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 104px;
+    align-items: baseline;
   }
   .up_to_date h4 {
     width: 382px;
     height: 128px;
   }
   .form_group {
-    margin-top: 132px;
+    padding-bottom: 44px;
   }
   .form_input {
     display: flex;

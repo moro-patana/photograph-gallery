@@ -7,9 +7,6 @@
 .article_beauty .article_container {
   padding: $container-padding;
 }
-.modal {
-  padding-bottom: 0.5rem;
-}
 .modal_inner button {
   position: absolute;
   height: 225px;
@@ -22,6 +19,9 @@
 .selected_image {
   width: 100%;
   border-radius: 10px;
+}
+.galleries {
+  padding: 0;
 }
 .gallery {
   display: flex;
