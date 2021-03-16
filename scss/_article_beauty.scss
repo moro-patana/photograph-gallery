@@ -4,6 +4,10 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.article_beauty img:focus {
+  border: none;
+  outline: none;
+}
 .article_beauty .article_container {
   padding: $container-padding;
 }

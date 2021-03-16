@@ -121,12 +121,18 @@ h1 {
     max-width: 585px;
     max-height: 366px; }
   .masthead h3 {
-    max-width: 457px; } }
+    max-width: 457px;
+    font-size: 72px;
+    line-height: 80px; } }
 
 .article_beauty {
   background-color: #F4F6F9;
   padding-top: 1rem;
   padding-bottom: 1rem; }
+
+.article_beauty img:focus {
+  border: none;
+  outline: none; }
 
 .article_beauty .article_container {
   padding: 1rem; }
