@@ -1,5 +1,5 @@
 # Front-end final mockup-to-website project
-
+![screenshot](https://iili.io/KuMCBt.png)
 This project is about practicing how to use node-sass. There is a part that we need to use javascript to switch the images.
 Before we start, let's install dependencies.
 
@@ -96,6 +96,8 @@ So, what is expected then? We're going to be marking most of the things we've le
   - *Bonus points*: Make the Image Slider, and other components work as intended, maybe you'll need some JS?
   - *Bonus points*: Use newer image formats such as WebP and AVIF, while still maintaining support for older formats.
 
+## Contact:
+Github:
 ## Ready?
 
 Apply everything you've learend before, do your best, and Good luck! 🤓

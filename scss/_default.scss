@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+ * {
+   margin: 0;
+ }
 h3,
 h4 {
   font-family: $primary-font-family;
@@ -11,6 +14,7 @@ h3 {
   font-size: $masthead-size;
   line-height: $masthead-height;
   color: $dark-color;
+  padding-top: 61px;
 }
 h4 {
   font-size: $h4-size;
