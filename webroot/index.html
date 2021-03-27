@@ -1,231 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photograph</title>
-  <link rel="stylesheet" href="./css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photograph</title>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      </head>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-
 <body>
-  <input type="checkbox" id="menu_checkbox">
-  <header>
-    <div class="container heading_container">
-      <label for="menu_checkbox" class="icon icon_menu">
-        <span class="a11y">Open the menu</span>
-      </label>
-      <h1>Photograph</h1>
-    </div>
-  </header>
-  <main>
-    <header class="masthead">
-      <div class="container masthead_container">
-        <div class="mastheading">
-          <p><a class="home" href="/home">Back to porfolio</a></p>
-          <h3>Beauty is seen through a lens</h3>
-          <p class="info">
-            Perspective matters.
-            <br>
-            All my photographs try to capture that perspective, however subtle.
-          </p>
+    <header>
+        <div class="page-container header-container">
+            <h1>Photograph</h1>
+            <button class="ham">
+                <span class="menuIcon material-icons">
+                    <img src="./images/open-menu-icon.svg" alt="open menu icon"/>
+                </span>
+                <span class="xIcon material-icons">
+                  <img src="./images/close-menu-icon.svg" alt="open menu icon"/>
+                </span>
+              </button>
+              <ul class="menu-list">
+                <li><a class="menuLink" href="#">About</a></li>
+                <li><a class="menuLink" href="#">Portfolio</a></li>
+                <li><a class="menuLink" href="#">Blog</a></li>
+                <li><a class="menuLink" href="#">Contacts</a></li>
+              </ul>
         </div>
-      </div>
     </header>
-
-    <article class="article_beauty">
-      <div class="container article_container">
-        <div class="select_images">
-          <div class="modal">
-            <div class="modal_inner">
-              <img class="selected_image" src="./images/image-cave-large.png" alt="cave" />
+    <main>
+      <div class="masthead-container">
+        <div class="page-container">
+        <div class="link-back">
+          <img class="link-back-icon" src="./images/Arrow.svg" alt="Arrow icon">
+          <p class="link-back-link">Back to portfolio</p>
+        </div>
+        <header class="masthead-header">
+          <h2>
+            Beauty is seen through a lens
+          </h2>
+          <div class="masthead-description">
+            <p>Perspective matters.</p>
+            <p>All my photographs try to capture that perspective, however subtle.</p>
+          </div>
+          <div class="container">
+            <div class="select_images">
+              <div class="modal">
+                <div class="modal_inner">
+                  <img class="selected_image" src="./images/Bitmap-large.jpg" alt="cave" />
+                </div>
+              </div>
+              <div class="galleries">
+                <div class="gallery">
+                  <img class="image-thumbnail-selected" src="./images/rock_carvings_sm.jpg" alt="cave" tabindex="0" />
+                  <img src="./images/stairs_sm.jpg" alt="stairs" tabindex="0" />
+                  <img src="./images/ripples_sm.jpg" alt="Brown land" tabindex="0" />
+                  <img src="./images/dunes_sm.jpg" alt="Brown land" tabindex="0" />
+                  <img src="./images/arches_sm.jpg" alt="aisle" tabindex="0" />
+                  <img src="./images/car_sm.jpg" alt="device" tabindex="0" />
+                  <img src="./images/sunset_sm.jpg" alt="desert place" tabindex="0" />
+                  <img src="./images/canyon_sm.jpg" alt="cavern place" tabindex="0" />
+                </div>
+              </div>
+            </div>
             </div>
           </div>
-          <div class="galleries">
-            <div class="gallery">
-              <img src="./images/image-cave-large.png" alt="cave" tabindex="0" />
-              <img src="./images/Bitmap-large.jpg" alt="bitmap" tabindex="0" />
-              <img src="./images/large-brown-land.jpg" alt="Pbrown land" tabindex="0" />
-              <img src="./images/sandy-mountain-large.jpg" alt="mountain" tabindex="0" />
-              <img src="./images/aisle-large.jpg" alt="aisle" tabindex="0" />
-              <img src="./images/electronic-device-large.png" alt="device" tabindex="0" />
-              <img src="./images/desert-large.png" alt="desert place" tabindex="0" />
-              <img src="./images/cavern-large.png" alt="cavern place" tabindex="0" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </article>
-    <article class="location">
-      <div class="container table_container">
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <h5>Date</h5>
-                <p class="detail">
-                  July 2019
-                </p>
-              </td>
-              <td>
-                <h5>Location</h5>
-                <p class="detail">
-                  Morrocan Highland
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h5>Camera</h5>
-                <p class="detail">
-                  Canon EOS1D Mark IV
-                </p>
-              </td>
-              <td>
-                <h5>Lens</h5>
-                <p class="detail">70mm f2.8 @ 1/16”</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </article>
-    <article class="mineral_carving">
-      <div class="container article_container">
-        <div class="carving_description">
-          <header class="article_heading">
-            <h4>
-              Mineral Carvings
-            </h4>
-            <p class="info">
-              Deep in the deserts of Morroco, lies a dried-up valley, featuring some of the most exquisite rock
-              formations, carved millions of years ago.
-            </p>
-          </header>
-          <p class="description">
-            To truly experience these beautiful formations, one has to visit them in person. I hope my photos have
-            managed to capture the sheer size – gravitas even – and spellbinding nature of these eroded walls.
-          </p>
-          <div class="social_media">
-            <ul>
-              <li>
-                <a href="/facebook"><img src="./images/facebook-icon.png" alt="facebook" class="media_icon"></a>
-              </li>
-              <li>
-                <a href="/twitter"><img src="./images/twitter-icon.png" alt="twitter" class="media_icon"></a>
-              </li>
-              <li>
-                <a href="/instagram"><img src="./images/instagram-icon.png" alt="instagram" class="media_icon"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <article class="up_to_date">
-      <div class="container article_container">
-        <header class="update_heading">
-          <h4>
-            Stay up-to-date
-            with my updates
-          </h4>
-          <p class="latest_version">
-            Latest
-          </p>
         </header>
-        <div class="form_group">
-          <form action="form" class="form_input">
-            <div class="address">
-              <label for="email" class="email">Your email address</label>
-              <input type="text" id="email" class="email_address" value="e.g. jesse@gmail.com">
+        <article class="mineral">
+          <div class="page-container mineral-container">
+            <div class="portfolio-description">
+              <div class="portfolio-description-list">
+                <div class="portfolio-description-list-item">
+                  <p class="title">Date:</p>
+                  <b>July 2019</b>
+                </div>
+                <div class="portfolio-description-list-item">
+                  <p class="title">Location:</p>
+                  <b>Morrocan Highlands</b>
+                </div>
+              </div>
+              <div class="portfolio-description-list">
+                <div class="portfolio-description-list-item">
+                  <p class="title">Camera:</p>
+                  <b>Canon EOS
+                    1D Mark IV</b>
+                </div>
+                <div class="portfolio-description-list-item">
+                  <p class="title">Lens:</p>
+                  <b>70mm f2.8 @ 1/16”</b>
+                </div>
+              </div>
             </div>
-            <div class="btn_container"><button class="subscribe"><a href="#subscribe">Subscribe</a></button></div>
-          </form>
-        </div>
+            <div class="portfolio-details">
+              <h3>
+                Mineral carvings
+              </h3>
+              <p class="instruction">
+                Deep in the deserts of Morroco, lies a dried-up valley, featuring some of the most exquisite rock formations, carved millions of years ago.
+              </p>
+              <p class="info">
+                To truly experience these beautiful formations, one has to visit them in person. I hope my photos have managed to capture the sheer size – <i>gravitas</i> even – and spellbinding nature of these eroded walls.
+              </p>
+              <ul class="media-list">
+                <li><a href=""><img src="./images/facebook.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/instagram.svg" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="subscribe">
+          <div class="page-container subscribe-container">
+            <div class="subscribe-header">
+              <h3>Stay up-to-date
+                with my updates</h3>
+              <h4>Latest</h4>
+            </div>
+            <form class="subscribe-form">
+              <fieldset>
+                <label>Your email address</label>
+                <input type="text" placeholder="e.g. jesse@gmail.com">
+              </fieldset>
+              <div class="subscribe-button-container">
+                <button class="subscribe-button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </article>
+        <article class="contacts">
+          <div class="page-container contacts-list-container">
+            <div class="contacts-list">
+              <h5>Photograph</h5>
+              <p class="contacts-description">
+                The personal website of Jesse McJessesen, professional photographer.
+              </p>
+              <ul class="contacts-media-list">
+                <li><a href=""><img src="./images/facebook.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/instagram.svg" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="contacts-list">
+              <ul class="contacts-menu">
+                <li><a class="menuLink active" href="#">Home</a></li>
+                <li><a class="menuLink" href="#">About</a></li>
+                <li><a class="menuLink" href="#">Portfolio</a></li>
+                <li><a class="menuLink" href="#">Blog</a></li>
+                <li><a class="menuLink" href="#">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="contacts-list contacts-list-blog">
+              <a href="">
+                <div class="blog">
+                  <figure><img src="./images/woman_sm.jpg" alt="woman's picture"></figure>
+                  <p class="blog-description">
+                    <span class="blog-title">Rust, pumpkin, tans, and spices.</span>
+                    <span><b>July 15, 2019</b></span>
+                  </p>
+                </div>
+              </a>
+              <a href="">
+                <div class="blog">
+                  <figure><img src="./images/arches_sm.jpg" alt="blog sample image"></figure>
+                  <p class="blog-description">
+                    <span class="blog-title">Experiencing Japan</span>
+                    <span><b>July 10, 2019</b></span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
-    </article>
-
-  </main>
-  <nav class="menu">
-    <h2>
-      <label for="menu_checkbox" class="icon icon_menu">
-        <span class="a11y">Open the menu</span>
-      </label>
-    </h2>
-    <ul class="menu_list">
-      <li class="list_item"><a href="/about">About</a></li>
-      <li class="list_item"><a href="/portfolio">Portfolio</a></li>
-      <li class="list_item"><a href="/blog">Blog</a></li>
-      <li class="list_item"><a href="/contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <footer>
-    <div class="container footer_container">
-      <div class="about">
-        <p class="title">Photograph</p>
-        <p class="subtitle">
-          The personal website of Jesse McJessesen, professional photographer.
-        </p>
-        <div class="social_media">
-          <ul>
-            <li>
-              <a href="/facebook"><img src="./images/facebook-icon.png" alt="facebook" class="media_icon"></a>
-            </li>
-            <li>
-              <a href="/twitter"><img src="./images/twitter-icon.png" alt="twitter" class="media_icon"></a>
-            </li>
-            <li>
-              <a href="/instagram"><img src="./images/instagram-icon.png" alt="instagram" class="media_icon"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="homepage">
-        <ul>
-          <li class="active"><a href="/home">Home</a></li>
-          <li class="homepage_list"><a href="/about">About</a></li>
-          <li class="homepage_list"><a href="/portfolio">Portfolio</a></li>
-          <li class="homepage_list"><a href="/blog">Blog</a></li>
-          <li class="homepage_list"><a href="/contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="samples">
-        <a href="#sample" class="sample_list">
-          <img src="./images/rust.png" alt="rust">
-          <p class="example">
-            <span class="sample">Rust, pumpkin, tans, and spices.</span>
-            <span class="set_date">July 15, 2019</span>
-          </p>
-        </a>
-        <a href="#sample" class="sample_list">
-          <img src="./images/experiencing-japan.png" alt="experiencing-japan">
-          <p class="example">
-            <span class="sample">Experiencing Japan.</span>
-            <span class="set_date">July 10, 2019</span>
-          </p>
-        </a>
-      </div>
-    </div>
-    <div class="page_info">
-      <div class="editor">
-        <p class="editor_name">
-          Created by Laaqiq, modified by Onja
-        </p>
-      </div>
-      <div class="copyright">
-        <p class="security">
-          <span class="print_date">&copy:Photographs, 2020.</span>
-          All rights reserved
-        </p>
-      </div>
-    </div>
-
-  </footer>
-  <script src="./script.js"></script>
+    </main>
+      <ul class="menu">
+        <li><a class="menuLink" href="#">About</a></li>
+        <li><a class="menuLink" href="#">Portfolio</a></li>
+        <li><a class="menuLink" href="#">Blog</a></li>
+        <li><a class="menuLink" href="#">Contacts</a></li>
+      </ul>
+<footer>
+  <div class="created">
+    <p>Created by Laaqiq, modified by Onja</p>
+    <p>&copy; PHOTOGRAF, 2020. All rights reserved.</p>
+  </div>
+</footer>
+    <script src="./script.js""></script>
 </body>
-
 </html>

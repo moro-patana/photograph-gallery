@@ -1,29 +1,9 @@
-@import "variables";
-body > header {
-  background-color: $primary-bg;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-.heading_container {
+.header-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   padding: 1rem;
+  align-items: center;
 }
-h1 {
-  font-family: $primary-font-family;
-  font-style: $normal-style;
-  font-weight: $normal-size;
-  font-size: $body-header;
-  line-height: $body-header-height;
-  color: $light-color;
-  text-transform: uppercase;
-  margin: 0;
-}
-@media(min-width: $content-width) {
-  h1 {
-    font-size: $desktop-h1-size;
-    line-height: $desktop-h1-height;
-    text-transform: uppercase;
-  }
 
-}
+
