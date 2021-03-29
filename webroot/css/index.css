@@ -267,7 +267,8 @@ h4 {
 
 label {
   font-size: 12px;
-  line-height: 16px;
+  font-weight: 700;
+  line-height: 15.62px;
   text-transform: uppercase;
   color: #000000; }
 
