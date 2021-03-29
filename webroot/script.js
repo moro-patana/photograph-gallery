@@ -44,11 +44,6 @@ Gallery.prototype.handleClickOutside = function (e) {
 }
 
 Gallery.prototype.openModal = function () {
-  console.log(`opening modal....`)
-  if (this.modal.matches(`.open`)) {
-    console.info(`Modal already open`)
-    return
-  }
   this.modal.classList.add(`open`)
   // event listener to be bound when we open the modal
   window.addEventListener(`keyup`, this.handleKeyUp)
@@ -62,14 +57,8 @@ Gallery.prototype.closeModal = function () {
 }
 
 Gallery.prototype.showImage = function (el) {
-  if (!el) {
-    console.info(`no image to show`)
-    return
-  }
   // update the modal with this info
-  console.log(el)
   let clickedImage = (this.modal.querySelector(`img`).src = el.src)
-  console.log(clickedImage)
   this.images.forEach(image => {
       image.classList.remove("image-thumbnail-selected")
   })
@@ -81,5 +70,3 @@ Gallery.prototype.showImage = function (el) {
 }
 
 const gallery = new Gallery(document.querySelector(`.gallery`))
-
-console.log(gallery)
