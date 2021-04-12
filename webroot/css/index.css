@@ -63,6 +63,7 @@ a {
   padding: 14px; }
 
 .link-back {
+  cursor: pointer;
   display: flex;
   gap: 10.5px;
   padding-top: 49px; }
