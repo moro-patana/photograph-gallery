@@ -280,15 +280,18 @@ h5 {
 @media (min-width: 1140px) {
   .subscribe-container {
     display: flex;
-    gap: 80px; }
+    justify-content: space-between; }
   .subscribe-form {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 54px; }
   h3 {
+    width: 382px;
     font-size: 52px;
-    line-height: 64px; } }
+    line-height: 64px; }
+  input {
+    width: 346px; } }
 
 .ham {
   z-index: 100;
