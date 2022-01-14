@@ -1,5 +1,7 @@
 # Front-end final mockup-to-website project
 ![screenshot](https://iili.io/KuMCBt.png)
+
+
 This project is about practicing how to use node-sass. There is a part that we need to use javascript to switch the images.
 Before we start, let's install dependencies.
 
