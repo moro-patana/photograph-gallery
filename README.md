@@ -59,5 +59,5 @@ You'll want to run the `scss:watch` task when you're developing this project.
 
 
 ## Contact:
-Github:
+Github:https://github.com/moro-patana
 
