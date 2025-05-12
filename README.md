@@ -16,7 +16,7 @@
 
 ### Demo
 
-[Demo](https://front-end-final-manjaka.netlify.app)
+[Demo](https://photograph-gallery-vvom.vercel.app/)
 
 ## Contact:
 Github:https://github.com/moro-patana
